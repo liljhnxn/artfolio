@@ -1,6 +1,6 @@
 import { botchain } from "./chain";
 
-export const ARTFOLIO_CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "") as `0x${string}`;
+export const ARTFOLIO_CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "0xf81752A6A51Cb68bbfD5911b4b06eF5F81BA0700") as `0x${string}`;
 
 export const ARTFOLIO_ABI = [
   {
