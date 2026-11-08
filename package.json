@@ -1,0 +1,41 @@
+{
+  "name": "artfolio",
+  "version": "1.0.0",
+  "description": "Artfolio - Decentralized digital art-sharing platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:botchain": "hardhat run scripts/deploy.ts --network botchain"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "canvas-confetti": "^1.9.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.453.0",
+    "next": "^14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.4",
+    "viem": "^2.21.35",
+    "wagmi": "^2.12.22"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.17.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.15",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
